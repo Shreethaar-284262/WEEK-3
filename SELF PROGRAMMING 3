@@ -1,0 +1,21 @@
+package numericalComputationAndExperssion;
+import java.util.Scanner;
+
+public class GasMileage {
+	public static void main (String[] args) {
+		
+		int miles;
+		double gallons, mpg;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the number of miles:");
+		miles = sc.nextInt();
+		System.out.println("Enter the gallons of fuel used: ");
+		gallons = sc.nextDouble();
+	
+		mpg = miles/gallons;
+		System.out.println("Miles Per Gallon: " + mpg);
+		
+	}
+
+}
